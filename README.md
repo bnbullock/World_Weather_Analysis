@@ -30,20 +30,22 @@ Current weather data is extracted using the Openweather API and attached to a nu
 
 ![Hotel Destinations](Vacation_Search/Hotel_Destinations.png)
 
-The total destination cities world wide are then mapped to a map and displayed for the client to review. Using the customary Google Maps interface the client is able to narrow down the travel destination.
+The total destination cities are then presented on a map and displayed for the client to review. Using the customary Google Maps interface the client is able to narrow down the travel destination and also determine which cities they would like to be part of their four city travel itinerary.
 
 ![Gmap Hotels](Vacation_Search/WeatherPy_vacation_map.png)
 
 
 ### Prepare Itinerary and Map results
 
-Once the client has chosen a specific destination, the client can then prepare their four-city itenary for travelling locally. The information is entered by the client into an input request window with starting location, 1st city, 2nd city, 3rd city that the client wants to visit locally. The following is an example of the dataframe produced and the google map with the completed iternary produced by the software. In this particular example we have prepared a destination of Northan in England along with Horsham, Great Yarmouth and Rottingdean as the itinerary for travelling.
+Once the client has chosen a specific destination, they are then able to enter their choices into the application.The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
  
 ![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
 
+The travel paths information depicted have specific colours for a different transportation method. Driving is yellow, the bicycling is in green and the walking paths are shown in blue.
+
 ![Travelling England](Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Below is the same map with individual markes assigned to each city stop along the four city itinerary requested by the client.
+Below, we have also produced an individual map with simple markers for the client to review and same map with individual markes assigned to each city stop along the four city itinerary requested by the client.
 
 ![England Markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
