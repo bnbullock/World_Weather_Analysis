@@ -37,7 +37,7 @@ The total destination cities are then presented on a map and displayed for the c
 
 ### Prepare Itinerary and Map results
 
-Once the client has chosen a specific destination, they are then able to enter their itinerary choices into the application. The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally as part of their itinerary. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example, we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
+Once the client has chosen a specific destination, they are then able to enter their itinerary choices into the application. The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally as part of their itinerary. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example, we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the cities a dataframe is produces specifically for their choices and the route map also prepared as shown below.
  
 ![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
 
@@ -45,10 +45,10 @@ The travel paths information depicted have specific colours for a different tran
 
 ![Travelling England](Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Below, we have also produced an individual map with simple markers for the client to review with individual markes assigned to each city stop along the four city itinerary as chosen by the client.
+Below, we have also produced a separate map with individual markers assigned for each city stop along the four city itinerary as chosen by the client. This allows for more careful inspection of the destination city and the surrounding cities and attractions.
 
 ![England Markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ## Overall Summary
 
-In summary we are able to provide the client with real-time information to make a very informed decision. Also, the code is repeatable and provides the user with many different itinerary choices for temperature and ciites to visit. Both of these values are entered by the client and the application can present the results in a manner that allows the client to choose a suitable destination of travel.
+In summary we are able to provide the client with real-time information to make a very informed decision. Also, the code is repeatable and provides the user with many different itinerary choices for temperature and cities to visit. Both of these values are entered by the client and the application can present the results in a manner that allows the client to choose a suitable destination of travel.
