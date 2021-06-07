@@ -37,7 +37,7 @@ The total destination cities are then presented on a map and displayed for the c
 
 ### Prepare Itinerary and Map results
 
-Once the client has chosen a specific destination, they are then able to enter their itinerary choices into the application. The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally as part of their itinerary. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
+Once the client has chosen a specific destination, they are then able to enter their itinerary choices into the application. The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally as part of their itinerary. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example, we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
  
 ![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
 
