@@ -37,15 +37,15 @@ The total destination cities are then presented on a map and displayed for the c
 
 ### Prepare Itinerary and Map results
 
-Once the client has chosen a specific destination, they are then able to enter their choices into the application.The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
+Once the client has chosen a specific destination, they are then able to enter their itinerary choices into the application. The information is entered into input request windows with starting location, 1st city, 2nd city, 3rd city that the client would like to visit locally as part of their itinerary. The following is an example of the dataframe produced and the resultant google map produced by the software. In this particular example we have prepared a destination of Northan, England along with Horsham, Great Yarmouth and Rottingdean as the four city itinerary for travelling. Once the user enters the ciites a dataframe is produces specifically for their choices and the route map also prepared as shown below.
  
 ![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
 
-The travel paths information depicted have specific colours for a different transportation method. Driving is yellow, the bicycling is in green and the walking paths are shown in blue.
+The travel paths information depicted have specific colours for a different transportation methods that the client might want to use. Driving is in yellow, the bicycling routes are shown in green and the walking paths are shown in blue.
 
 ![Travelling England](Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Below, we have also produced an individual map with simple markers for the client to review and same map with individual markes assigned to each city stop along the four city itinerary requested by the client.
+Below, we have also produced an individual map with simple markers for the client to review with individual markes assigned to each city stop along the four city itinerary as chosen by the client.
 
 ![England Markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
