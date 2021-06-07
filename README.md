@@ -17,29 +17,29 @@ To design a "PlanMyTrip" application that allows users to filter destinations ba
 
 ## Results
 
-### Analysis of Deliverable 1
+### Analyze database of Cities and Retrieve Weather Details
 
 Current weather data is extracted using the Openweather API and attached to a number of cities in our database. The information is formatted correctly and saved as shown in the dataframe below.
 
 ![City Destinations](Weather_Database/City_Destinations.png)
 
 
-### Analysis of Deliverable 2
+### Provide Suitable Destination Choices
 
- The client is able to enter 2 values into a input request that allows a minimum and maximum temperature rannge to be determined. The system then goes out and searches all destinations currently in the database that have a current acceptable temperature that suits the client's needs. The following is a sample list of destinations with a minimum value of 55 degrees and a maximum of 85 degrees F.
+ The client is able to enter 2 values into a input request that allows a minimum and maximum temperature range to be determined. The system then goes out and searches all destinations currently in the database that have a current acceptable temperature that suits the client's needs. The following is a sample list of destinations with a minimum value of 55 degrees and a maximum of 85 degrees F.
 
 ![Hotel Destinations](Vacation_Search/Hotel_Destinations.png)
 
-The total destination cities world wide are then mapped to a google map and displayed for the client to review.
+The total destination cities world wide are then mapped to a map and displayed for the client to review. Using the customary Google Maps interface the client is able to narrow down the travel destination.
 
 ![Gmap Hotels](Vacation_Search/WeatherPy_vacation_map.png)
 
 
-### Analysis of Deliverable 3
+### Prepare Itinerary and Map results
 
-Once the client has chosen a specific destination, the system will ask about a four-city itenary for travelling locally. The information is entered by the client into an input request window with starting location, 1st city, 2nd city, 3rd city that the client wants to visit. The following is an example of the dataframe produced and the google map with the completed iternary produced by the software.
+Once the client has chosen a specific destination, the client can then prepare their four-city itenary for travelling locally. The information is entered by the client into an input request window with starting location, 1st city, 2nd city, 3rd city that the client wants to visit locally. The following is an example of the dataframe produced and the google map with the completed iternary produced by the software. In this particular example we have prepared a destination of Northan in England along with Horsham, Great Yarmouth and Rottingdean as the itinerary for travelling.
  
- ![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
+![Four Cities](Vacation_Itinerary/four_city_dataframe.png)
 
 ![Travelling England](Vacation_Itinerary/WeatherPy_travel_map.png)
 
@@ -49,4 +49,4 @@ Below is the same map with individual markes assigned to each city stop along th
 
 ## Overall Summary
 
-In summary we are able to collect a list of cities, access the OpenWeathe API and extract local weather information
+In summary we are able to provide the client with real-time information to make a very informed decision. Also, the code is repeatable and provides the user with many different itinerary choices for temperature and ciites to visit. Both of these values are entered by the client and the application can present the results in a manner that allows the client to choose a suitable destination of travel.
