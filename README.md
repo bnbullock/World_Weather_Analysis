@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-To design a "PlanMyTrip" application that allows users to filter destinations based on temperature preferences. Once a temperature range has been selected by a client, this is used to identify potential destinations of travel and nearby accomodation choices. From the destination list, the client will choose a city to travel to along with a four-city travel itinerary. With the use of different Application Programming Interfaces(APIs) a marker map showing the four cities will be created along with a travel route map showing three different methods of transportation  - driving(green), bicycling(blue) and walking(green). Each transportation method is colour coded, as above, for ease of view on the itinerary map.
+To design a "PlanMyTrip" application that allows users to filter destinations based on temperature preferences. Once a temperature range has been selected by a client, this is used to identify potential destinations of travel and nearby accomodation choices. From the destination list, the client will choose a city to travel to along with a four-city travel itinerary. With the use of different Application Programming Interfaces(APIs), a marker map showing the four cities will be created along with a travel route map showing three different methods of transportation  - driving(yellow), bicycling(green) and walking(blue). Each transportation method is colour coded, as above, for ease of view on the itinerary map.
 
 - Deliverables:
   1. Connect using OpenWeatherMap, retrieve weather data and export the results in a CSV file.
